@@ -1,0 +1,53 @@
+div{
+    /* border: solid 1px black; */
+    margin: 5px;
+    width: auto;
+    padding: 10px;
+    background-color: whitesmoke
+}
+
+button{
+    background-color: white;
+    border: solid 1px whitesmoke;
+    padding: 11px;
+    /* box-shadow: 10px 10px 100 rgb(65, 58, 58); */
+    width: auto;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.paper {
+    position:relative;
+}
+.badge{
+    position: absolute;
+    background-color: red;
+    box-shadow: 2px 2px 5px rgb(205, 200, 200);
+    width: 20px;
+    height: 15px;
+    border-radius: 20px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    top: -6px;
+    right: -6px;
+    z-index: 1;
+}
+
+.bell{
+    position: relative;
+}
+.dot{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: red;
+    width: 10px;
+    height: 10px;
+    font-size: 2px;
+    border-radius: 50%;
+    z-index: 1;
+}

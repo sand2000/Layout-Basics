@@ -1,0 +1,42 @@
+article{
+    border: solid 2px rgb(197, 214, 222);
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(240, 251, 254);
+    color: rgb(10, 65, 80);
+    border-radius: 10px;
+}
+
+.photo{
+    border: solid 2px rgb(139, 176, 234);
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgb(189, 229, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    float: left;
+    margin-right: 15px;
+    }
+
+    button{
+        width: 500px;
+        height: 30px;
+        background-color: rgb(237, 234, 234);
+        color: gray;
+        border-color: aliceblue;
+        border-radius: 10px;
+        clear: both;
+    }
+
+    p{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    h1{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
